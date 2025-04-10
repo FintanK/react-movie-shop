@@ -2,7 +2,6 @@
 
 This React app was created to showcase React.js functionality.
 
-
 - React Router
 - Tailwind CSS
 - Flowbite (Components on top of tailwind)

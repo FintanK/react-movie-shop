@@ -1,10 +1,14 @@
 import './App.css';
 import { AllRoutes } from './routes/AllRoutes';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <AllRoutes></AllRoutes>
+    <div className="dark">
+      <Header />
+        <AllRoutes></AllRoutes>
+      <Footer />
     </div>
   );
 }
