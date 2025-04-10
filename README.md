@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# React Movie Shop Demo
+
+This React app was created to showcase React.js functionality.
+
+
+- React Router
+- Tailwind CSS
+- Flowbite (Components on top of tailwind)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,7 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom';
+import { MovieDetail } from '../pages/MovieDetail';
 import { MovieList } from '../pages/MovieList';
-import { MovieDetail } from '../pages/MoveDetail';
 import { PageNotFound } from '../pages/PageNotFound';
 
 export const AllRoutes = () => {
