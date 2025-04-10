@@ -6,6 +6,10 @@ This React app was created to showcase React.js functionality.
 - Tailwind CSS
 - Flowbite (Components on top of tailwind)
 
+This project uses the https://www.themoviedb.org/ API. Create a .env file at the root of the project and add your own API key.
+
+REACT_APP_MOVIE_DB_API_KEY=<your-api-key>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

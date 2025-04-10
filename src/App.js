@@ -1,13 +1,13 @@
 import './App.css';
-import { AllRoutes } from './routes/AllRoutes';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
+import { AllRoutes } from './routes/AllRoutes';
 
 function App() {
   return (
-    <div className="dark">
+    <div className="App">
       <Header />
-        <AllRoutes></AllRoutes>
+      <AllRoutes></AllRoutes>
       <Footer />
     </div>
   );
