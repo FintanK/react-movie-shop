@@ -35,7 +35,7 @@ export const Checkout = () => {
                                         <div className="text-red-500">{errors.cardHolderName && <span>This field is required</span>}</div>
                                         <input type="text" placeholder="Cardholder's Name"
                                             {...register("cardHolderName", { required: true })}
-                                            className="px-4 py-3.5 bg-gray-100 focus:text-white-900 text-slate-900 w-full text-sm border rounded-md focus:border-purple-500 focus:bg-transparent outline-none" />
+                                            className="px-4 py-3.5 bg-gray-100 focus:text-white text-slate-900 w-full text-sm border rounded-md focus:border-purple-500 focus:bg-transparent outline-none" />
                                     </div>
 
                                     <div className="text-red-500">{errors.cardNumber && <span>This field is required</span>}</div>
@@ -48,7 +48,7 @@ export const Checkout = () => {
                                         </svg>
                                         <input type="number" placeholder="Card Number"
                                             {...register("cardNumber", { required: true })}
-                                            className="px-4 py-3.5 text-slate-900 w-full text-sm outline-none bg-transparent" />
+                                            className="px-4 py-3.5 focus:text-white text-slate-900 w-full text-sm outline-none bg-transparent" />
                                     </div>
 
                                     <div className="grid grid-cols-2 gap-4">
@@ -56,13 +56,13 @@ export const Checkout = () => {
                                             <div className="text-red-500">{errors.expiryDate && <span>This field is required</span>}</div>
                                             <input type="number" placeholder="EXP."
                                                 {...register("expiryDate", { required: true })}
-                                                className="px-4 py-3.5 bg-gray-100 text-slate-900 w-full text-sm border rounded-md focus:border-purple-500 focus:bg-transparent outline-none" />
+                                                className="px-4 py-3.5 focus:text-white bg-gray-100 text-slate-900 w-full text-sm border rounded-md focus:border-purple-500 focus:bg-transparent outline-none" />
                                         </div>
                                         <div>
                                             <div className="text-red-500">{errors.cvv && <span>This field is required</span>}</div>
                                             <input type="number" placeholder="CVV"
                                                 {...register("cvv", { required: true })}
-                                                className="px-4 py-3.5 bg-gray-100 text-slate-900 w-full text-sm border rounded-md focus:border-purple-500 focus:bg-transparent outline-none" />
+                                                className="px-4 py-3.5 bg-gray-100 focus:text-white text-slate-900 w-full text-sm border rounded-md focus:border-purple-500 focus:bg-transparent outline-none" />
                                         </div>
                                     </div>
                                 </div>
