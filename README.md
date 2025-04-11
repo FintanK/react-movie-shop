@@ -7,6 +7,7 @@ This React app was created to showcase React.js functionality.
 - Flowbite (Components on top of tailwind)
 - React Redux
 - Redux Toolkit
+- React Form Hook
 
 This project uses the https://www.themoviedb.org/ API. 
 
