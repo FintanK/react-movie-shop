@@ -5,9 +5,10 @@ This React app was created to showcase React.js functionality.
 - React Router
 - Tailwind CSS
 - Flowbite (Components on top of tailwind)
-- React Redux
-- Redux Toolkit
-- React Form Hook
+- React Redux (global state management)
+- Redux Toolkit (global state management - store configuration and slices)
+- React Hook Form (form validation)
+- Jest (with code coverage reports)
 
 This project uses the https://www.themoviedb.org/ API. 
 
