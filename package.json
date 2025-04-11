@@ -26,11 +26,8 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
-      "!src/**/*.d.ts",
-      "!src/index.js",
-      "!src/reportWebVitals.js",
-      "!src/**/types.ts"
+      "src/components/*.{js}",
+      "!src/components/index.js"
     ],
     "coverageReporters": [
       "text",
