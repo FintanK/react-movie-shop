@@ -5,10 +5,14 @@ This React app was created to showcase React.js functionality.
 - React Router
 - Tailwind CSS
 - Flowbite (Components on top of tailwind)
+- React Redux
+- Redux Toolkit
 
-This project uses the https://www.themoviedb.org/ API. Create a .env file at the root of the project and add your own API key.
+This project uses the https://www.themoviedb.org/ API. 
 
-REACT_APP_MOVIE_DB_API_KEY=<your-api-key>
+Create a .env file at the root of the project and add your own API key before starting development.
+
+REACT_APP_MOVIE_DB_API_KEY=your-api-key
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

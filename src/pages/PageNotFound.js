@@ -1,13 +1,11 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import PageNotFoundImage from "../assets/pagenotfound.jpg"
+import PageNotFoundImage from "../assets/pagenotfound.jpg";
 import { Button } from "../components";
+import { useTitle } from "../hooks/useTitle";
 
 export const PageNotFound = () => {
 
-  useEffect(() => {
-    document.title = `Page Not Found / React Web Shop`;
-  });
+  useTitle('Page Not Found / React Web Shop');
 
   return (
     <main>
@@ -21,7 +19,7 @@ export const PageNotFound = () => {
         <div className="flex justify-center my-4">
           <Link to="/">
             <Button>Back To Home Page</Button>
-          </Link>          
+          </Link>
         </div>
       </section>
     </main>
