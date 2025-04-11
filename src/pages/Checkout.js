@@ -1,8 +1,11 @@
 import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { useTitle } from "../hooks";
 
 export const Checkout = () => {
+
+    useTitle('Checkout / React Web Shop');
 
     const cartList = useSelector(state => state.cartState.cartList);
     const navigate = useNavigate();

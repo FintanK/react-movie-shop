@@ -1,7 +1,7 @@
 
-import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import { useTitle } from "../hooks";
 import { remove } from "../store/cartSlice";
 
 export const Cart = () => {
@@ -9,9 +9,7 @@ export const Cart = () => {
     const cartList = useSelector(state => state.cartState.cartList);
     const dispatch = useDispatch();
 
-    useEffect(() => {
-        document.title = `Cart / React Web Shop`;
-    });
+    useTitle('Cart / React Web Shop');
 
     return (
         <div className="mx-auto mt-10">
@@ -51,7 +49,7 @@ export const Cart = () => {
                         Continue Shopping
                     </NavLink>
                 </div>
-                <div id="summary" className=" w-full   sm:w-1/4   md:w-1/2     px-8 py-10">
+                <div id="summary" className="w-full sm:w-1/4 md:w-1/2 px-8 py-10">
                     <NavLink to="/checkout" className="border-t mt-8">
                         <button disabled={cartList.length === 0} className="bg-indigo-500 font-semibold hover:bg-indigo-600 py-3 text-sm text-white uppercase w-full">
                             Checkout

@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { useTitle } from "../hooks/useTitle";
+import { useTitle } from "../hooks";
 import { emptyCart } from "../store/cartSlice";
 
 export const CheckoutComplete = () => {
